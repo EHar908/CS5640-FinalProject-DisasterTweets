@@ -30,7 +30,7 @@ Several sections of code are grouped together into these respective areas:
 - Tokenize the cleaned text using Keras `Tokenizer`.
 - Convert the tokenized text into padded sequences.
 
-### 6. **Build and Train Machine Models: 
+### 6. **Build and Train Machine Models** 
 - **Train Naive Bayes Model**
   - Create a baseline machine learning model using `MultinomialNB`.
   - Vectorize the cleaned text using `CountVectorizer` for the Naive Bayes model.
@@ -45,7 +45,7 @@ Several sections of code are grouped together into these respective areas:
 - Train the model on the tokenized and padded sequences.
 
 ### 8. **Build and Train BERT Model**
-- 
+- Insert info. 
 
 ### 9. **Evaluate Models**
 - Compare the accuracies of each model
