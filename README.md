@@ -2,6 +2,29 @@
 Final Code Submission
 
 Dependencies:
+- Libraries:
+  - pandas
+  - numpy
+  - sklearn
+    - train_test_split
+    - classification_report
+    - compute_class_weight
+    - resample
+  - tensorflow
+    - keras
+      - Sequential
+      - Embedding
+      - LSTM
+      - Dense
+      - Dropout
+      - Bidirectional
+      - Tokenizer
+      - pad-sequences
+  - re (Regular Expressions)
+  - nltk
+    - stopwords
+    - WordNetLemmatizer
+    - wordnet
 
 Instructions: 
 The file is in the .iypnb (Jupyter Lab) format. Open and run the code in Visual Studio Code (or a similar program). Acquire the appropriate .iypnb. 
