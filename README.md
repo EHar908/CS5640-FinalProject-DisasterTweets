@@ -36,7 +36,7 @@ Several sections of code are grouped together into these respective areas:
   - Vectorize the cleaned text using `CountVectorizer` for the Naive Bayes model.
   - Train the model on the training data and evaluate on validation data.
 - **Train Decision Tree Model**
-  - 
+  - Insert info. 
 
 ### 7. **Build and Train LSTM Model**
 - Create an LSTM-based deep learning model using Keras.
