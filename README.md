@@ -49,7 +49,7 @@ Several portions of code are grouped together into these respective sections:
 ### 3. **Load Dataset**
 - Read the CSV files (`train.csv` and `test.csv`).
 
-### 4. **Decision Tree**
+### 4. **Build and train Decision Tree**
 - Data Pre-processing:
    - Removes URLs.
    - Removes mentions (e.g., @username).
@@ -69,7 +69,7 @@ Several portions of code are grouped together into these respective sections:
    - Best model from grid search
 - Evaluate and Store Classification Report in Reports Array
 
-### 5. **Naive Bayes**
+### 5. **Build and train Naive Bayes**
 - Data Pre-processing:
    - Drop unnecessary columns and handle missing values
    - Resample data to handle class imbalance
