@@ -137,3 +137,8 @@ Several portions of code are grouped together into these respective sections:
 ### 8. **Evaluate Models**
 - Compare the accuracies of each model
 - Output metrics and graphs like accuracy, precision, recall, and F1-score.
+
+To see the accuracy of these scores, collect the produced .csv files and head to the Kaggle competition: 
+https://www.kaggle.com/competitions/nlp-getting-started
+
+Create an account and submit each .csv file individually. Note that they'll limit you to 5 submissions a day. 
