@@ -31,6 +31,7 @@ Dependencies:
   - torch
   - transformers
   - tqdm
+  - matplotlib.pyplot
 
 Instructions: 
 The file is in the .iypnb (Jupyter Lab) format. Open and run the code in Visual Studio Code (or a similar program). Acquire the appropriate .iypnb extensions to run it. 
