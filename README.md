@@ -58,8 +58,32 @@ Several portions of code are grouped together into these respective sections:
   - Define pipeline with Decision Tree  
   - Hyperparameter tuning with GridSearchCV  
   - Best model from grid search
+- Evaluate and Store Classification Report in Reports Array
 
 ### 5. **Naive Bayes**
+- Data Pre-processing:
+ - Drop unnecessary columns and handle missing values
+ - Resample data to handle class imbalance
+ - Split data into features (X) and target (y)
+ - Initialize lemmatizer and stopword set
+ - Preprocessing function
+ - Remove non-alphabetic characters
+ - Convert text to lowercase and split into words
+ - Remove stopwords and apply lemmatization
+ - Apply the preprocessing function to the entire dataset
+- Data Splitting:
+ - Split into training and avlidation sets
+- Tokenize and Pad Sequences:
+ - Initialize tokenizer with a vocabulary size of 10,000 and an out-of-vocabulary token (<OOV>)
+ - Fit the tokenizer on the training data (X_train)
+ - Convert training and validation texts to sequences of integers
+ - Pad and truncate training sequences to a maximum length of 100 using post-padding and post-truncating
+ - Pad and truncate validation sequences to a maximum length of 100 using post-padding and post-truncating
+- Build and Train:
+ - Get class weights for imbalanced data
+ - Define TF-IDF Vectorizer and Naive Bayes pipeline
+ - Fit the pipeline
+- Evaluate and Store Classification Report in Reports Array
 
 ### 6. **Build and Train LSTM Model**
 - Create an LSTM-based deep learning model using Keras.
