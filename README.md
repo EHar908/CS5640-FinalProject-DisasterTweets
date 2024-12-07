@@ -86,14 +86,51 @@ Several portions of code are grouped together into these respective sections:
 - Evaluate and Store Classification Report in Reports Array
 
 ### 6. **Build and Train LSTM Model**
+- Data Pre-processing:
+   - Drop unnecessary columns and handle missing values
+   - Use a placeholder (<missing>) for missing text
+   - Shuffle the data
+   - Separate features (X) and target (y)
+   - Define a preprocessing function to clean text
+   - Remove non-alphabetic characters and convert to lowercase
+   - Apply the preprocessing function to the entire dataset
+- Data Splitting:
+   - Split data into training and validation sets
+- Tokenize and Pad Sequences:
+   - Tokenizer initialization and fitting
+   - Tokenize and pad sequences for training and validation sets
+- Build and Train:
+   -  Compute class weights to handle class imbalance
+   -  Ensure y_train and y_val are NumPy arrays
+   -  Build, copmile, train RNN model
+- Evaluate and Store Classification Report in Reports Array
+
+
 - Create an LSTM-based deep learning model using Keras.
 - Use `Embedding` for word representations.
 - Compile the model with `binary_crossentropy` loss to handle binary classification.
 - Train the model on the tokenized and padded sequences.
 
 ### 7. **Build and Train BERT Model**
-- Insert info. 
+- Data Pre-processing:
+   - Remove URLs
+   - Remove mentions
+   - Remove shastags
+   - Remove special characters
+   - Remove extra spaces
+   - Convert to lowercase
+- Data Splitting:
+   - Prepare training and validation sets
+   - Tokenizer and dataset creation
+   - DataLoaders
+- Build and Train:
+   - Load pretrained BERT model
+   - Define optimizer, scheduler, and GradScaler
+   - Early stopping variables
+   - Training and validation loop
+   - Early stopping logic
+- Evaluate and Store Classification Report in Reports Array
 
 ### 8. **Evaluate Models**
 - Compare the accuracies of each model
-- Output metrics like accuracy, precision, recall, and F1-score.
+- Output metrics and graphs like accuracy, precision, recall, and F1-score.
