@@ -1,6 +1,4 @@
 # CS5640-FinalProject-DisasterTweets
-Final Code Submission
-
 Dependencies:
 - Libraries:
   - pandas
@@ -10,6 +8,11 @@ Dependencies:
     - classification_report
     - compute_class_weight
     - resample
+    - ensemble
+    - feature_extraction.text
+    - pipeline
+    - model_selection
+    - metrics
   - tensorflow
     - keras
       - Sequential
@@ -25,6 +28,9 @@ Dependencies:
     - stopwords
     - WordNetLemmatizer
     - wordnet
+  - torch
+  - transformers
+  - tqdm
 
 Instructions: 
 The file is in the .iypnb (Jupyter Lab) format. Open and run the code in Visual Studio Code (or a similar program). Acquire the appropriate .iypnb extensions to run it. 
