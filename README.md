@@ -105,12 +105,6 @@ Several portions of code are grouped together into these respective sections:
    -  Build, copmile, train RNN model
 - Evaluate and Store Classification Report in Reports Array
 
-
-- Create an LSTM-based deep learning model using Keras.
-- Use `Embedding` for word representations.
-- Compile the model with `binary_crossentropy` loss to handle binary classification.
-- Train the model on the tokenized and padded sequences.
-
 ### 7. **Build and Train BERT Model**
 - Data Pre-processing:
    - Remove URLs
