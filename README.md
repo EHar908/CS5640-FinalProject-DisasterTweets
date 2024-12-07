@@ -42,14 +42,14 @@ Several portions of code are grouped together into these respective sections:
 
 ### 4. **Decision Tree**
 - Data Pre-processing:
- - Removes URLs.
- - Removes mentions (e.g., @username).
- - Removes hashtags (#).
- - Removes special characters.
- - Removes extra spaces.
- - Fills missing values in the keyword, location, and text columns with empty strings.
- - Cleans the text column using the clean_text function.
- - Combines the text, repeated keyword (3 times), and location into a single combined column.
+   - Removes URLs.
+   - Removes mentions (e.g., @username).
+   - Removes hashtags (#).
+   - Removes special characters.
+   - Removes extra spaces.
+   - Fills missing values in the keyword, location, and text columns with empty strings.
+   - Cleans the text column using the clean_text function.
+   - Combines the text, repeated keyword (3 times), and location into a single combined column.
 - Data Splitting
  - Splitting features and target
  - Stratified trian-validation split
