@@ -34,7 +34,9 @@ Dependencies:
 
 Instructions: 
 The file is in the .iypnb (Jupyter Lab) format. Open and run the code in Visual Studio Code (or a similar program). Acquire the appropriate .iypnb extensions to run it. 
+
 Execute each section of code starting from the top to the end. 
+
 Several portions of code are grouped together into these respective sections: 
 
 ### 1. **Import Libraries**
